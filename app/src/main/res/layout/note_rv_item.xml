@@ -1,0 +1,82 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.cardview.widget.CardView
+xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:layout_margin="5dp"
+    app:cardBackgroundColor="#0033cc"
+    app:cardCornerRadius="15dp"
+    app:contentPadding="10dp"
+    app:cardElevation="10dp">
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:orientation="horizontal"
+        android:layout_height="wrap_content">
+<LinearLayout
+    android:layout_width="0dp"
+    android:orientation="vertical"
+    android:layout_weight="1"
+    android:layout_height="wrap_content">
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:id="@+id/userNametv_id"/>
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:id="@+id/userEmailtv_id"/>
+</LinearLayout>
+        <ImageView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:id="@+id/deleteuser_id"
+            android:layout_gravity="center_vertical"
+            android:background="@drawable/ic_baseline_delete_24"/>
+    </LinearLayout>
+    </androidx.cardview.widget.CardView>
+<!--    <LinearLayout-->
+<!--        android:orientation="vertical"-->
+<!--        android:layout_width="match_parent"-->
+<!--        android:layout_height="wrap_content"-->
+<!--        android:layout_margin="4dp">-->
+
+        <!--text view for displaying our note text-->
+<!--        <TextView-->
+<!--            android:id="@+id/idTVNote"-->
+<!--            android:layout_width="match_parent"-->
+<!--            android:layout_height="wrap_content"-->
+<!--            android:layout_margin="3dp"-->
+<!--            android:layout_toLeftOf="@id/idIVDelete"-->
+<!--            android:padding="4dp"-->
+<!--            android:text="Note"-->
+<!--            android:textColor="@color/white"-->
+<!--            android:textSize="18sp" />-->
+
+        <!--text view for displaying our last updated text-->
+<!--        <TextView-->
+<!--            android:id="@+id/idTVDate"-->
+<!--            android:layout_width="match_parent"-->
+<!--            android:layout_height="wrap_content"-->
+<!--            android:layout_below="@id/idTVNote"-->
+<!--            android:layout_margin="3dp"-->
+<!--            android:layout_toLeftOf="@id/idIVDelete"-->
+<!--            android:padding="4dp"-->
+<!--            android:text="Updated At"-->
+<!--            android:textColor="@color/white"-->
+<!--            android:textSize="13sp" />-->
+
+        <!--imageview for displaying delete icon-->
+<!--&lt;!&ndash;        <ImageView&ndash;&gt;-->
+<!--&lt;!&ndash;            android:id="@+id/idIVDelete"&ndash;&gt;-->
+<!--&lt;!&ndash;            android:layout_width="wrap_content"&ndash;&gt;-->
+<!--&lt;!&ndash;            android:layout_height="wrap_content"&ndash;&gt;-->
+<!--&lt;!&ndash;            android:layout_alignParentEnd="true"&ndash;&gt;-->
+<!--&lt;!&ndash;            android:layout_alignParentRight="true"&ndash;&gt;-->
+<!--&lt;!&ndash;            android:layout_centerVertical="true"&ndash;&gt;-->
+<!--&lt;!&ndash;            android:layout_margin="3dp"&ndash;&gt;-->
+<!--&lt;!&ndash;            android:padding="3dp"&ndash;&gt;-->
+<!--            android:src="@drawable/ic_baseline_delete_24"-->
+<!--            app:tint="@color/white" />-->
+
+<!--    //user_room-->

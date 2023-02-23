@@ -1,0 +1,122 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".AddEditNoteActivity">
+
+    <!--edit text for note title-->
+
+
+    <!--edit text for note description-->
+    <EditText
+        android:id="@+id/idEdtNoteName"
+        android:layout_width="230dp"
+        android:layout_height="wrap_content"
+        android:layout_marginStart="60dp"
+        android:layout_marginTop="70dp"
+        android:layout_marginEnd="60dp"
+        android:layout_marginBottom="60dp"
+        android:gravity="center"
+        android:hint="Enter Note Title"
+        android:textColor="#000000"
+        android:textColorHint="#000000" />
+
+    <EditText
+        android:id="@+id/idEdtNoteDesc"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_below="@id/idEdtNoteName"
+        android:layout_marginStart="40dp"
+        android:layout_marginEnd="40dp"
+        android:gravity="start|top"
+        android:hint="Enter your Note Details"
+        android:inputType="textMultiLine"
+        android:singleLine="false"
+        android:textColor="#000000"
+        android:textColorHint="#000000" />
+
+    <!--button for saving and updating a note-->
+    <Button
+        android:id="@+id/idBtn"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_alignParentBottom="true"
+        android:layout_margin="30dp"
+        android:background="@drawable/custom_button_back"
+        android:text="Button"
+        android:textAllCaps="false"
+        android:textColor="@color/white" />
+    <androidx.recyclerview.widget.RecyclerView
+            android:layout_width="match_parent"
+            android:id="@+id/recyclerView_id"
+        android:layout_below="@id/idEdtNoteDesc"
+            android:layout_height="wrap_content"/>
+
+</RelativeLayout>
+
+<!--<LinearLayout-->
+<!--    xmlns:android="http://schemas.android.com/apk/res/android"-->
+<!--    xmlns:app="http://schemas.android.com/apk/res-auto"-->
+<!--    xmlns:tools="http://schemas.android.com/tools"-->
+<!--    android:layout_width="match_parent"-->
+<!--    android:layout_height="match_parent"-->
+<!--    android:orientation="vertical"-->
+<!--    android:background="@drawable/img_3"-->
+<!--    tools:context=".MainActivity">-->
+<!--    android:background="@drawable/img"-->
+
+<!--    &lt;!&ndash;recycler view for displaying all notes&ndash;&gt;-->
+<!--    <androidx.recyclerview.widget.RecyclerView-->
+<!--        android:id="@+id/notesRV"-->
+<!--        android:layout_width="match_parent"-->
+<!--        android:layout_margin="60dp"-->
+<!--        android:layout_height="match_parent"-->
+<!--        android:layout_marginTop="5dp"-->
+<!--         />-->
+<!--    tools:listitem="@layout/note_rv_item"-->
+
+    <!--fab for adding a new note-->
+
+<!--    <com.google.android.material.floatingactionbutton.FloatingActionButton-->
+<!--        android:id="@+id/idFAB"-->
+<!--        android:layout_width="wrap_content"-->
+<!--        android:layout_height="wrap_content"-->
+<!--        android:layout_alignParentEnd="true"-->
+<!--        android:layout_alignParentRight="true"-->
+<!--        android:layout_alignParentBottom="true"-->
+<!--        android:layout_margin="20dp"-->
+<!--        android:src="@drawable/ic_baseline_add_24"-->
+<!--        app:backgroundTint="@color/black_shade_2"-->
+<!--        app:tint="@color/white" />-->
+<!--<EditText-->
+<!--    android:layout_width="match_parent"-->
+<!--    android:layout_height="wrap_content"-->
+<!--    android:id="@+id/userNameTtle_id"-->
+<!--    android:hint="Enter Note Title"-->
+<!--    android:textColor="#000000"-->
+<!--    android:textColorHint="#000000"/>-->
+<!--    <EditText-->
+<!--        android:layout_width="match_parent"-->
+<!--        android:layout_height="wrap_content"-->
+<!--        android:id="@+id/userEmailnote_id"-->
+<!--        android:hint="Enter your Note Details"-->
+<!--        android:inputType="textMultiLine"-->
+<!--        android:singleLine="false"-->
+<!--        android:textColor="#000000"-->
+<!--        android:textColorHint="#000000" />-->
+<!--    <Button-->
+<!--        android:layout_width="wrap_content"-->
+<!--        android:layout_height="wrap_content"-->
+<!--        android:text="insert"-->
+<!--        android:id="@+id/insertusernotes_id"-->
+<!--        android:layout_gravity="center"-->
+<!--        />-->
+<!--   -->
+<!--    <androidx.recyclerview.widget.RecyclerView-->
+<!--        android:layout_width="match_parent"-->
+<!--        android:id="@+id/recyclerView_id"-->
+<!--        android:layout_height="wrap_content"/>-->
+<!--</LinearLayout>-->
+
